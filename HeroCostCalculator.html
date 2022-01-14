@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Hero Cost Calculator</title>
+    </head>
+    <script src="HeroCostCalculator.js"></script>
+    <body>
+        <a href="index.html" class="FeatureLink">Back to Hub</a>
+        <div id="CalculatorMain">
+            <form name="inputValues" action="" method="get">
+                Start Level
+                <input type="number" name="startLevel" placeholder="start level" min="1" max="12000"><br>
+                End Level
+                <input type="number" name="endLevel" placeholder="end level" min="1" max="12000"><br>
+                Formatted
+                <input type="checkbox" name="formatted" onclick="formatNumbers(this.form)"><br>
+                <input type="button" name="calculate" value="Calculate" onclick="calculateCost(this.form)">
+            </form>
+            <p id="coinsCost">Coins cost: <span id="coinsCostSpan">0</span></p>
+            <p id="soulstonesCost">Soul stones cost: <span id="soulstonesCostSpan">0</span></p>
+            <p id="errorSpace"></p>
+        </div>
+    </body>
+    <link rel="stylesheet" href="style.css">
+</html>

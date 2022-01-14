@@ -1,0 +1,47 @@
+body {
+    background-color: #404040;
+    color: white;
+}
+
+#MainTitle {
+    text-align: center;
+    font-family: Arial;
+}
+
+.FeatureLink {
+    text-align: center;
+    font-family: Arial;
+    color: aqua;
+}
+
+#LinkBlock {
+    text-align: center;
+}
+
+#CalculatorMain {
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+}
+
+#coinsCost {
+    text-align: center;
+    font-family: Arial;
+    font-display: 32px;
+    color: white;
+}
+
+#soulstonesCost {
+    text-align: center;
+    font-family: Arial;
+    font-display: 32px;
+    color: white;
+}
+
+#coinsCostSpan {
+    color: #f7e016;
+}
+
+#soulstonesCostSpan {
+    color: rgb(141, 65, 156);
+}
